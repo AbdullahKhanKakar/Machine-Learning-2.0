@@ -43,9 +43,20 @@ Data preprocessing is a crucial step in the data analysis and machine learning p
             </ul>
           </li>
           <li>Regularization</li>
+            <ul>
+              Regularization technique is used to convert data in such a way to prevent model from overfitting the data. The common regularization includes:
+              <li>L1 Regularization(also called Lasso): `It convert individually rows in values, whose sum will be equal to 0.`</li>
+              <li>L2 Regularization(also called Ridge): `It also do the same word as Lasso. But it's method to do this task is change than Lasso.`</li>
+            </ul>
         </ol>
       </li>
       <li>Handling Categorical Data</li>
+        <ul>
+          <li>Label Encoding: `Use to convert target variable categories into numeric values. It specially recommend to use it for target variable.`</li>
+          <li>One-Hot Encoding: `Use to convert categorical values into a binary matrix format. It's different than Ordinal Encoder, because here we deal with those categorical values that have not order. For example: Pakistan, India, China, Finland etc. In these countries, there is no order.`</li>
+          <li>Ordinal Encoding: `Use to convert categorical values with ordinal relationships into numerical format.`</li>
+        </ul>
     </ol>
   </li>
+  <li>Data Discretization or Binning: `Convert continuous data into discrete bins or categories.`</li>
 </ol>
