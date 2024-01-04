@@ -1,62 +1,43 @@
-# Machine Learning 2.0
+# 🔥Machine Learning 2.0
 
-## Data Preprocessing:
-Data preprocessing is a crucial step in the data analysis and machine learning pipeline. It involves several sub-tasks to prepare raw data for further analysis or modeling. The following topics are included in data preprocessing:
+<img src="https://github.com/AbdullahKhanKakar/Machine-Learning-2.0/blob/main/Data%20Preprocessing.png" width="100%" height="auto">
 
-<ol>
-  <li>Data Cleaning:
-    <ul>
-      <li>Handling `missing values`</li>
-      <li>Removing `outliers`</li>
-      <li>Correct `errors and inconsistency` from the dataset</li>
-      <li>Removing duplicated rows</li>
-    </ul>
-  </li>
-  <li>Data Integration:
-    <ul>
-      Combining data from multiple resources into a single dataset from more comprehensive analysis. It includes two techniques that are popular:
-      <li>Data Merging</li>
-      <li>Data Concatenating</li>
-    </ul>
-  </li>
-  <li>Data Transformation:
-    <ol>
-      Modify the format or structure of the data to make it more suitable for analysis or modeling.
-      <li>Handling Numerical Data
-        <ol>
-          <li>Scaling
-            <ul>
-              Method of converting data in equal range units. Using scikit-learn library for doing this, which offer us various methods.
-              <li>Standardization(also called z-score scaling): `Convert data in range of [-3,3]. It can handle both +ve and -ve values`</li>
-              <li>Min-Max Scaler: `Convert data in range of [0,1]. It can handle only +ve values. It cannot be applied to -ve values data points.`</li>
-              <li>MaxAbs Scaler: `Convert data in range of [-1,1]. It can also handle both +ve and -ve values.`</li>
-              <li>Robust Scaler: `Convert data in range of [-1,1]. Alongwith scaling, it also handle outliers effeciently.`</li>
-            </ul>
-          </li>
-          <li>Normalization
-            <ul>
-              It includes Power Transformers, which helps to do scaling and also helps to normally distribute the data. Using scikit-learn library for doing this, which offer us various methods.
-              <li>Box-Cox Transformer: `It handle values greater than 0. Not able to handle values equal to 0 and smaller than 0.`</li>
-              <li>Yeo-Johnson: `It's just improvement in Box-Cox transformers. It able to handle both +ve and -ve values.`</li>
-              <li>Log Transformer: `We can use it through numpy. Scikit-learn don't offer any method to do this task. It also convert large values into little smaller values.`</li>
-              <li>
-            </ul>
-          </li>
-          <li>Regularization</li>
-            <ul>
-              Regularization technique is used to convert data in such a way to prevent model from overfitting the data. The common regularization includes:
-              <li>L1 Regularization(also called Lasso): `It convert individually rows in values, whose sum will be equal to 0.`</li>
-              <li>L2 Regularization(also called Ridge): `It also do the same word as Lasso. But it's method to do this task is change than Lasso.`</li>
-            </ul>
-        </ol>
-      </li>
-      <li>Handling Categorical Data</li>
-        <ul>
-          <li>Label Encoding: `Use to convert target variable categories into numeric values. It specially recommend to use it for target variable.`</li>
-          <li>One-Hot Encoding: `Use to convert categorical values into a binary matrix format. It's different than Ordinal Encoder, because here we deal with those categorical values that have not order. For example: Pakistan, India, China, Finland etc. In these countries, there is no order.`</li>
-          <li>Ordinal Encoding: `Use to convert categorical values with ordinal relationships into numerical format.`</li>
-        </ul>
-    </ol>
-  </li>
-  <li>Data Discretization or Binning: `Convert continuous data into discrete bins or categories.`</li>
-</ol>
+## Data Preprocessing Techniques:
+Data preprocessing is a critical phase in the data analysis and machine learning pipeline, setting the foundation for accurate modeling and insightful analysis. This repository explores advanced techniques in data preprocessing, covering a variety of tasks to enhance the quality and usability of raw data.
+
+## Topics Covered:
+
+### 1. <span style="color: #ff0000;">Data Cleaning:</span>
+   - Handle missing values effectively.
+   - Remove outliers to ensure data integrity.
+   - Correct errors and inconsistencies in the dataset.
+   - Eliminate duplicated rows for cleaner data.
+
+### 2. <span style="color: #00ff00;">Data Integration:</span>
+   - Combine data from multiple sources for a comprehensive dataset.
+   - Techniques include Data Merging and Data Concatenating.
+
+### 3. <span style="color: #0000ff;">Data Transformation:</span>
+   - Modify data formats to make them suitable for analysis and modeling.
+   - **Handling Numerical Data:**
+      - **Scaling:**
+         - Standardization (z-score scaling): Convert data to a range of [-3,3]. Suitable for handling both positive and negative values.
+         - Min-Max Scaler: Transform data to a range of [0,1], suitable for positive values.
+         - MaxAbs Scaler: Convert data to a range of [-1,1], handling both positive and negative values.
+         - Robust Scaler: Scale data to a range of [-1,1] and efficiently handle outliers.
+      - **Normalization:**
+         - Box-Cox Transformer: Transform values greater than 0, not suitable for values equal to or smaller than 0.
+         - Yeo-Johnson: Improved version of Box-Cox, capable of handling both positive and negative values.
+         - Log Transformer: Use numpy for logarithmic transformations, converting large values to smaller ones.
+
+      - **Regularization:**
+         - L1 Regularization (Lasso): Individually convert rows to values, ensuring their sum equals 0.
+         - L2 Regularization (Ridge): Similar to Lasso but with a different method of achieving the same result.
+
+   - **Handling Categorical Data:**
+      - Label Encoding: Convert target variable categories into numeric values, especially recommended for the target variable.
+      - One-Hot Encoding: Convert categorical values into a binary matrix format, suitable for unordered categories.
+      - Ordinal Encoding: Convert categorical values with ordinal relationships into numerical format.
+
+### 4. <span style="color: #ff00ff;">Data Discretization or Binning:</span>
+   - Convert continuous data into discrete bins or categories for improved analysis and modeling.
