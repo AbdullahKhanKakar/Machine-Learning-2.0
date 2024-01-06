@@ -41,3 +41,43 @@ Data preprocessing is a critical phase in the data analysis and machine learning
 
 ### 4. <span style="color: #ff00ff;">Data Discretization or Binning:</span>
    - Convert continuous data into discrete bins or categories for improved analysis and modeling.
+
+---------------------------
+image
+## ML Algorithms
+
+## 1. Linear Regression:
+
+Linear regression is a statistical method used to model the relationship between a dependent variable and one or more independent variables. The core idea is to fit a linear equation to the observed data in order to describe the statistical association between variables. `The main goal in Linear Regression is to minimize the sum of squared distances between observed values of Y and the values predicted by the linear equation.`
+
+#### There are 2 types of Linear Regression
+- Simple Linear Regression: Involves a single independent variable.
+- Multiple Linear Regression: Involves more than one independent variables.
+
+#### Formula to find linear equation:
+           basic equation:
+               Y = mx + c or Y = B1.X + B0
+               Y = B0 + B1.X1 + B2.X2 + B3.X3 + .... + BnXn
+           where,
+               - Y is independent variable
+               - B0 is y-intercept, calculating by setting x=0, as (0,y)
+               - B1,B2,B3, ... ,Bn are slopes, calculated by using slope formula: slope=m=rise/run=(y2-y1)/(x2-x1)
+
+#### Selecting best linear equation:
+- `How first linear equation comes?` It based on estimations of slope and y-intercept. This is done by using OLS(order least squares)
+- `How best line comes?` After first line calculation, the distance of points from the line is calculated by taking their squares and adding them. A single value come which is usually referred as error. Similarly, algorithm tries different linear equations and select the best one that have minimum error.
+
+## 2. Logistic Regression:
+
+
+
+
+
+
+
+
+
+
+
+
+
