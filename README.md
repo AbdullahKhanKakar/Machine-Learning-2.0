@@ -52,11 +52,11 @@ Data preprocessing is a critical phase in the data analysis and machine learning
 
 Linear regression is a statistical method used to model the relationship between a dependent variable and one or more independent variables. The core idea is to fit a linear equation to the observed data in order to describe the statistical association between variables. `The main goal in Linear Regression is to minimize the sum of squared distances between observed values of Y and the values predicted by the linear equation.`
 
-#### There are 2 types of Linear Regression
-- Simple Linear Regression: Involves a single independent variable.
-- Multiple Linear Regression: Involves more than one independent variables.
+### There are 2 types of Linear Regression
+- **Simple Linear Regression:** Involves a single independent variable.
+- **Multiple Linear Regression:** Involves more than one independent variables.
 
-#### Formula to find linear equation:
+### Formula to find linear equation:
            basic equation:
                Y = mx + c or Y = B1.X + B0
                Y = B0 + B1.X1 + B2.X2 + B3.X3 + .... + BnXn
@@ -65,12 +65,33 @@ Linear regression is a statistical method used to model the relationship between
                - B0 is y-intercept, calculating by setting x=0, as (0,y)
                - B1,B2,B3, ... ,Bn are slopes, calculated by using slope formula: slope=m=rise/run=(y2-y1)/(x2-x1)
 
-#### Selecting best linear equation:
-- `How first linear equation comes?` It based on estimations of slope and y-intercept. This is done by using OLS(order least squares)
-- `How best line comes?` After first line calculation, the distance of points from the line is calculated by taking their squares and adding them. A single value come which is usually referred as error. Similarly, algorithm tries different linear equations and select the best one that have minimum error.
+### Selecting best linear equation:
+- **How first linear equation comes?** It based on estimations of slope and y-intercept. This is done by using OLS(order least squares)
+- **How best line comes?** After first line calculation, the distance of points from the line is calculated by taking their squares and adding them. A single value come which is usually referred as error. Similarly, algorithm tries different linear equations and select the best one that have minimum error.
+
+### Performance Evaluation Metrics:
+There are many ways to measure performance of Linear Regression models. But main or important metrics are:
+- **MSE(Mean Squared Error)**
+- **RMSE(Root Mean Squared Error)**
+- **R-Squared Error(also called r-2 score)**
+- **MAE(Mean Absolute Error)**
 
 ## 2. Logistic Regression:
 
+Logistic regression is a statistical method used for binary classification problems, where the outcome variable is categorical. Despite its name, logistic regression is a classification algorithm rather than a regression algorithm.
+
+### There are 3 types of Classifications in Logistic Regression:
+- **Binary Classification:** Target variable have exactly 2 classes e.g., True, False or Male, Female etc.
+- **Multiclass Classification:** Target variable have more than 2 classes, each instance belongs to one class e.g, different colous Red, Green, Orange, Blue in target variable etc.
+- **Multilabel Classification:** Target variable have more than 2 classes, each instance can belongs to multiple classes e.g, there are 3 classes Movies, Cartoons, Anemy. The Movies instance can belongs to multiple classes e.g, Action, Horror etc.
+
+### Performance Evaluation Metrics:
+There are many ways to measure performance of Logistic Regression models. But main or important metrics are:
+- **Accuracy Score**
+- **Recall Score**
+- **Precision Score**
+- **Confusion Matrix**
+- **F1 Score**
 
 
 
