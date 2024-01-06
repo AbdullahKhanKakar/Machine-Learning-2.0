@@ -81,8 +81,8 @@ There are many ways to measure performance of Linear Regression models. But main
 Logistic regression is a statistical method used for binary classification problems, where the outcome variable is categorical. Despite its name, logistic regression is a classification algorithm rather than a regression algorithm.
 
 ### There are 3 types of Classifications in Logistic Regression:
-- **Binary Classification:** Target variable have exactly 2 classes e.g., True, False or Male, Female etc.
-- **Multiclass Classification:** Target variable have more than 2 classes, each instance belongs to one class e.g, different colous Red, Green, Orange, Blue in target variable etc.
+- **Binary Classification(use sigmoid function method):** Target variable have exactly 2 classes e.g., True, False or Male, Female etc.
+- **Multiclass Classification(use softmax function method):** Target variable have more than 2 classes, each instance belongs to one class e.g, different colous Red, Green, Orange, Blue in target variable etc.
 - **Multilabel Classification:** Target variable have more than 2 classes, each instance can belongs to multiple classes e.g, there are 3 classes Movies, Cartoons, Anemy. The Movies instance can belongs to multiple classes e.g, Action, Horror etc.
 
 ### Performance Evaluation Metrics:
@@ -93,6 +93,20 @@ There are many ways to measure performance of Logistic Regression models. But ma
 - **Confusion Matrix**
 - **F1 Score**
 
+## Math Behind Sigmoid or Ligit Function:
+The sigmoid function, denoted as **σ(z)**, is a mathematical function that convert any real number **z** into a range between **0 and 1**. It's often used in machine learning for tasks like **binary classification**, where you want to predict **probabilities**.
+
+      Mathematically, sigmoid function is represented as:
+            σ(z) = 1/(1+e^-z)
+      Here,
+            **σ(z)**: This is the output of the sigmoid function. It represents the probability of an event happening.
+            **e**: This is Euler's number, a mathematical constant approximately equal to 2.71828.
+            **z**: This is the input to the sigmoid function
+
+Here, actually **z == mx + b**. During training sigmoid will learn the values of m(slope) and b(y-intercept). This equation can be represented as **z = B0 + B1.X**
+
+## Softmax Function:
+For multiclass classification problems, the softmax function is commonly used. The softmax function takes a vector of raw scores (also known as logits) and transforms them into a probability distribution over multiple classes. This ensures that the predicted probabilities sum to 1.
 
 
 
