@@ -108,7 +108,10 @@ Here, actually **z == mx + b**. During training sigmoid will learn the values of
 ## Softmax Function:
 For multiclass classification problems, the softmax function is commonly used. The softmax function takes a vector of raw scores (also known as logits) and transforms them into a probability distribution over multiple classes. This ensures that the predicted probabilities sum to 1.
 
+## 3. Support Vector Machine(SVM):
+It can be used for both classification and regression problem.
 
+#### For more read: here is my blog on SVM 👉 <a href="https://medium.com/@abdullahkhan4465917/support-vector-machines-svm-96a66699721a">Click</a>
 
 
 
