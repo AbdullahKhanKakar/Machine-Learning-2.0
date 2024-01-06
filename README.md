@@ -43,7 +43,9 @@ Data preprocessing is a critical phase in the data analysis and machine learning
    - Convert continuous data into discrete bins or categories for improved analysis and modeling.
 
 ---------------------------
-image
+
+<img src="https://github.com/AbdullahKhanKakar/Machine-Learning-2.0/blob/main/ML%20Algorithms.png" width="100%" height="auto">
+
 ## ML Algorithms
 
 ## 1. Linear Regression:
