@@ -7,17 +7,17 @@ Data preprocessing is a critical phase in the data analysis and machine learning
 
 ## Topics Covered:
 
-### 1. <span style="color: #ff0000;">Data Cleaning:</span>
+### 1. Data Cleaning:
    - Handle missing values effectively.
    - Remove outliers to ensure data integrity.
    - Correct errors and inconsistencies in the dataset.
    - Eliminate duplicated rows for cleaner data.
 
-### 2. <span style="color: #00ff00;">Data Integration:</span>
+### 2. Data Integration:
    - Combine data from multiple sources for a comprehensive dataset.
    - Techniques include Data Merging and Data Concatenating.
 
-### 3. <span style="color: #0000ff;">Data Transformation:</span>
+### 3. Data Transformation:
    - Modify data formats to make them suitable for analysis and modeling.
    - **Handling Numerical Data:**
       - **Scaling:**
@@ -39,7 +39,7 @@ Data preprocessing is a critical phase in the data analysis and machine learning
       - One-Hot Encoding: Convert categorical values into a binary matrix format, suitable for unordered categories.
       - Ordinal Encoding: Convert categorical values with ordinal relationships into numerical format.
 
-### 4. <span style="color: #ff00ff;">Data Discretization or Binning:</span>
+### 4. Data Discretization or Binning:
    - Convert continuous data into discrete bins or categories for improved analysis and modeling.
 
 ---------------------------
@@ -48,7 +48,7 @@ Data preprocessing is a critical phase in the data analysis and machine learning
 
 ## ML Algorithms
 
-## 1. Linear Regression:
+# 1. Linear Regression:
 
 Linear regression is a statistical method used to model the relationship between a dependent variable and one or more independent variables. The core idea is to fit a linear equation to the observed data in order to describe the statistical association between variables. `The main goal in Linear Regression is to minimize the sum of squared distances between observed values of Y and the values predicted by the linear equation.`
 
@@ -76,7 +76,7 @@ There are many ways to measure performance of Linear Regression models. But main
 - **R-Squared Error(also called r-2 score)**
 - **MAE(Mean Absolute Error)**
 
-## 2. Logistic Regression:
+# 2. Logistic Regression:
 
 Logistic regression is a statistical method used for binary classification problems, where the outcome variable is categorical. Despite its name, logistic regression is a classification algorithm rather than a regression algorithm.
 
@@ -108,10 +108,23 @@ Here, actually **z == mx + b**. During training sigmoid will learn the values of
 ## Softmax Function:
 For multiclass classification problems, the softmax function is commonly used. The softmax function takes a vector of raw scores (also known as logits) and transforms them into a probability distribution over multiple classes. This ensures that the predicted probabilities sum to 1.
 
-## 3. Support Vector Machine(SVM):
+# 3. Support Vector Machine(SVM):
 It can be used for both classification and regression problem.
 
 #### For more read: here is my blog on SVM 👉 <a href="https://medium.com/@abdullahkhan4465917/support-vector-machines-svm-96a66699721a">Click</a>
+
+# 4. K-Nearest Neighbors(KNN):
+K-Nearest Neighbors (KNN) is a simple supervised machine learning algorithm used for both classification and regression tasks. The fundamental idea behind KNN is to make predictions based on the majority class (for classification) or average (for regression) of the K-nearest data points in the feature space.
+
+**KNN calculate distance of given point from nearest points through following techniques:**
+- **i. Euclidean Distance:** It calculates direct distance between two points e.g, as we move through Airplane from one country(point) to another.
+              d=sqrt((x2​−x1​)2+(y2​−y1​)2)​
+- **ii. Manhattan Distance:** It calculates indirect distance between two points e.g, as we move through Car from one country(point) to another.
+              d=∣x2​−x1​∣+∣y2​−y1​∣
+- **iii. Minkowski Distance:** It's usually combination of both distances. Means through this techniques, we can calculate any distance(whether Euclidean or Manhattan).
+              d= (∣x2​−x1​∣p + ∣y2​−y1​∣p)1/p
+              Here, **p** is a positive real number, which defines the order of the Minkowski distance. When p=2, it becomes the Euclidean distance, and when p=1, it becomes the                       Manhattan distance
+- **iv. Hamming Distance:** Hamming distance is a measure of the difference between two strings of equal length. It counts the number of positions at which the corresponding symbols (characters or bits) are different. Hamming distance is often used in information theory and error detection. It's use in NLP domain.
 
 
 
