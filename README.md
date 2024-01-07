@@ -135,7 +135,7 @@ Decision is a supervised machine learning algorithm used for both classification
 - **Leaf Nodes(terminal nodes):** These nodes represents the final outcomes or predictions. Each leaf node corresponds to a class label in classification task and to numerical value in regression tasks.
 - **Branches:** The edges connecting nodes are called branches.
 - **Pruning:** Pruning helps to reduce the unnecessary nodes. It reduce overfitting and improves the model for better predictions on unseen data.
-- **Entropy and Information Gain:** Entropy is used for measuring 
+- **Entropy and Information Gain:** Entropy is used for measuring impurity(it's mixture of data). Information Gain measures the effectiveness of feature in reducing entropy. Decision Trees aims to maximize information gain.
 
 
 
