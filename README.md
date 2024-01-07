@@ -126,6 +126,16 @@ K-Nearest Neighbors (KNN) is a simple supervised machine learning algorithm used
               Here, **p** is a positive real number, which defines the order of the Minkowski distance. When p=2, it becomes the Euclidean distance, and when p=1, it becomes the                       Manhattan distance
 - **iv. Hamming Distance:** Hamming distance is a measure of the difference between two strings of equal length. It counts the number of positions at which the corresponding symbols (characters or bits) are different. Hamming distance is often used in information theory and error detection. It's use in NLP domain.
 
+# 5. Decision Tree:
+Decision is a supervised machine learning algorithm used for both classification and regression tasks. It splits the dataset into subsets on the most significant column at each level of tree. The goal is to **create a tree** that able to predicts the target variable by learning simple decision rules from data features(means from training dataset).- 
+
+### Elements used in Decision Tree:
+- **Root Node:** The top node in the tree is called Root Node. It represents the entire dataset and splits into child nodes based on the most significant columns.
+- **Decision Nodes(internal nodes):** These nodes represents the decisions or tests based on a specific column. Each decision node is further split into two or more child nodes.
+- **Leaf Nodes(terminal nodes):** These nodes represents the final outcomes or predictions. Each leaf node corresponds to a class label in classification task and to numerical value in regression tasks.
+- **Branches:** The edges connecting nodes are called branches.
+- **Pruning:** Pruning helps to reduce the unnecessary nodes. It reduce overfitting and improves the model for better predictions on unseen data.
+- **Entropy and Information Gain:** Entropy is used for measuring 
 
 
 
@@ -134,3 +144,5 @@ K-Nearest Neighbors (KNN) is a simple supervised machine learning algorithm used
 
 
 
+
+ 
