@@ -137,6 +137,8 @@ Decision is a supervised machine learning algorithm used for both classification
 - **Pruning:** Pruning helps to reduce the unnecessary nodes. It reduce overfitting and improves the model for better predictions on unseen data.
 - **Entropy and Information Gain:** Entropy is used for measuring impurity(it's mixture of data). Information Gain measures the effectiveness of feature in reducing entropy. Decision Trees aims to maximize information gain.
 
+# 6. Random Forest:
+
 
 
 
