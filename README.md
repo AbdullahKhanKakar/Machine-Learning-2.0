@@ -137,7 +137,15 @@ Decision is a supervised machine learning algorithm used for both classification
 - **Pruning:** Pruning helps to reduce the unnecessary nodes. It reduce overfitting and improves the model for better predictions on unseen data.
 - **Entropy and Information Gain:** Entropy is used for measuring impurity(it's mixture of data). Information Gain measures the effectiveness of feature in reducing entropy. Decision Trees aims to maximize information gain.
 
-# 6. Random Forest:
+# 6. Ensemble Method:
+An ensemble method in machine learning referes to a technique where multiple models are combined to create a stronger, more robust predictive predictive model than any individual model in the ensemble. The idea behind ensemble method is to improve model performance and reducing overfitting.
+
+**There are 3 types of Ensemble Algorithms:
+   - **Bagging(Bootstrap Aggregating):** Bagging involves training multiple instances of the same learning algorithm on different subsets of the training data. Predictions from individual models combined by voting in classification and averaging in regression. **e.g., Random Forest**
+   - **Boosting:** Boosting focuses on sequentially training models where each new model correct errors of the previous ones. Each new model gives more weights to instances that are mis-classified by previous ones. **e.g., Adaboost, Gradient Boosting(XGBoost,LightBGM,CatBoost).**
+   - **Stacking:** Involves training multiple diverse models and combining their predictions using another model, often refered to as a meta-model **e.g.,** Suppose you have three models: a decision tree, a support vector machine, and a neural network. Instead of choosing one of them, you train a meta-model (e.g., logistic regression) that takes the predictions of these three models as input and learns to make the final prediction.
+
+### Random Forest(Bagging algorithm):
 
 
 
