@@ -148,10 +148,22 @@ An ensemble method in machine learning referes to a technique where multiple mod
 ### (i). Random Forest(Bagging algorithm):
 It is designed to improve the performance and robustness(reduce overfitting) of decision trees by training multiple trees on different subsets of the training data and combining their predictions. The key features of Random Forest include randomness in both data and features, which helps in reducing overfitting and improving generalization.
 
+--------------------
+
 <img src="https://github.com/AbdullahKhanKakar/Machine-Learning-2.0/blob/main/Evaluation%20Metrics.png" width="100%" height="auto">
 
 # For Classification:
 
+<img src="https://github.com/AbdullahKhanKakar/Machine-Learning-2.0/blob/main/Classification%20Metrics.PNG" width="100%" height="auto">
+
+### 1. Confusion Matrix:
+A confusion matrix summarize the performance of classification algorithm. It is 2x2 matrix in binary classification and can be extended for multi-class problems.
+
+**Here's a breakdown of the terms in a binary classification Confusion Matrix:**
+- **i. True Positive(TP):** Instances that are actually positive and were correctly classified as positive.
+- **ii. True Negatives(TN):** Instances that are actually negative and were correctly classified as negative.
+- **iii. False Positive(FP):** Instances that are actually negative but were incorrectly classified as positive (Type I error).
+- **iv. False Negative(FN):** Instances that are actually positive but were incorrectly classified as negative (Type II error).
 
 
 
