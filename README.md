@@ -165,6 +165,34 @@ A confusion matrix summarize the performance of classification algorithm. It is 
 - **iii. False Positive(FP):** Instances that are actually negative but were incorrectly classified as positive (Type I error).
 - **iv. False Negative(FN):** Instances that are actually positive but were incorrectly classified as negative (Type II error).
 
+### 2. Accuracy Score:
+It calculates overall model performance.
+
+      Formula: 
+               = (TP + TN)/(TP + TN + FP + FN) or = Correct/(Correct+Incorrect)
+
+### 3. Precision(Positive pridiction performance):
+Precision focuses on the accuracy of positive predictions.
+
+      Formula:
+               = (TP)/(TP + FP)
+
+### 4. Recall(also called sensitivity, True Positive Rate):
+
+      Formula:
+               = (TP)/(TP + FN)
+
+### 5. Specificity(True Negative Rate):
+
+      Formula:
+               = (TN)/(TN + FP)
+
+### 6. F1 Score:
+The F1 score is the harmonic mean of precision and recall. It provides a balanced measure between precision and recall.
+
+      Formula:
+               = 2 * (Precision * Recall)/(Precision + Recall)
+
 
 
 
