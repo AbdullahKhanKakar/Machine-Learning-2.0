@@ -148,6 +148,11 @@ An ensemble method in machine learning referes to a technique where multiple mod
 ### (i). Random Forest(Bagging algorithm):
 It is designed to improve the performance and robustness(reduce overfitting) of decision trees by training multiple trees on different subsets of the training data and combining their predictions. The key features of Random Forest include randomness in both data and features, which helps in reducing overfitting and improving generalization.
 
+<img src="https://github.com/AbdullahKhanKakar/Machine-Learning-2.0/blob/main/Evaluation%20Metrics.png" width="100%" height="auto">
+
+# For Classification:
+
+
 
 
 
