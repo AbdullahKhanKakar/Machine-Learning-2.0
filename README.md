@@ -148,6 +148,27 @@ An ensemble method in machine learning referes to a technique where multiple mod
 ### (i). Random Forest(Bagging algorithm):
 It is designed to improve the performance and robustness(reduce overfitting) of decision trees by training multiple trees on different subsets of the training data and combining their predictions. The key features of Random Forest include randomness in both data and features, which helps in reducing overfitting and improving generalization.
 
+### (ii). AdaBoost Algorithm(Boosting algorithm):
+A machine learning ensemble method that adjusts the weights of the classifier and the training data to correct the previous mistakes.
+
+### (iii). Gradient Boosting(Boosting algorithm):
+An approach to machine learning based on boosting which converts weak learners to strong ones, focusing on minimizing the loss function. It includes:
+- XGBoost(extreme gradient boosting)
+- LightGBM(light gradient boosting machine)
+
+### (iv). Stochastic Gradient Boosting(Boosting algorithm):
+A variation of Gradient Boosting which incorporates randomness in the training process to reduce variance and overfitting.
+
+### (v). LPBoost. Linear Programming Boosting(Boosting algorithm):
+A boosting algorithm that uses linear programming for combining weak learners.
+
+### (vi). TotalBoost(Boosting algorithm):
+An algorithm that, like AdaBoost, focuses on increasing the margin but also adjust for misclassified examples more aggressively.
+
+### (vii). CatBoost(Categorical Boosting algorithm):
+An open-source algorithm that can handle categorical data directly and is based on gradient boosting.
+
+
 --------------------
 
 <img src="https://github.com/AbdullahKhanKakar/Machine-Learning-2.0/blob/main/Evaluation%20Metrics.png" width="100%" height="auto">
